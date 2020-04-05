@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 
+
+import TaskColumn from './Components/TasksColumn';
+
 function App() {
   return (
     <div className="App">
-      <h1>Hi</h1>
+      <TaskColumn/>
     </div>
   );
 }

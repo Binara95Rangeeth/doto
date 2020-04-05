@@ -1,10 +1,14 @@
 import React from 'react';
 import './TaskColumn.css';
 
+import Task from './Task';
+
 function TaskColumn() {
   return (
     <div className="TaskColumn">
-      
+      <Task/>
+
+      <button className="btn-addTask">Add Task</button>
     </div>
   );
 }
