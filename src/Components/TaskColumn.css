@@ -1,5 +1,5 @@
 
-
+*{padding: 0; margin: 0;}
 div.TaskColumn{
     width: 320px;
     height: 96vh;
@@ -8,6 +8,8 @@ div.TaskColumn{
     position: relative;
     top: 15px;
     border-radius: 10px;
+    padding: 5px;
+    padding-top: 5px;
 }
 
 button.btn-addTask{

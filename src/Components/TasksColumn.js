@@ -8,7 +8,7 @@ function TaskColumn() {
     <div className="TaskColumn">
       
       <Task/>
-
+      <Task/>
       <button className="btn-addTask">Add Task</button>
     </div>
   );
